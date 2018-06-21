@@ -87,8 +87,8 @@ SSD1306  display(0x3d, 0, 2); //0x3d for the Adafruit 1.3" OLED, 0x3C being the 
 
 // === Set Your WiFI credentials ===
 
-const char* ssid = "Area51_MQTT_Pi";                     // *** insert your own ssid ***
-const char* password = "Bennett_Built_a_Time_Machine";   // *** and password ***
+const char* ssid = "  SSID    ";                     // *** insert your own ssid ***
+const char* password = "  PASSPHRASE  ";   // *** and password ***
 
 const byte firstAlarmHour = 7;                           // *** in 24 hour format, !!! NO LEADING ZEROES !!! ***
 const byte firstAlarmMinute = 30;                        // *** minutes ***
